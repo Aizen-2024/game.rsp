@@ -1,0 +1,36 @@
+body{
+  text-align: center;
+  background-color: grey;
+  button{
+      font-size: 5rem;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 200px;
+      background-color: hsl(180, 100%, 50%);
+  }
+  button:hover{
+      background-color: hsl(180, 100%, 30%);
+      cursor: pointer;
+  }
+  #container{
+      box-shadow: 2px 3px 4px red,-3px -4px 5px blue;
+      h1{
+          color: rgb(111, 14, 88);
+      }
+      h2{
+          color:yellowgreen;
+          font-size: 3rem;
+          animation-name: anim;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;}
+  }
+  #last{
+      color:rgb(7, 34, 238);
+      font-family: comic sans ms;
+      font-size: 1.4rem;
+  }
+}
+@keyframes anim{
+  from{transform: rotateX(20deg) ;}
+  to{transform: rotateX(50deg);}
+}
